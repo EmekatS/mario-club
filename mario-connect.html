@@ -1,0 +1,33 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Contact Mario</title>  
+    <link rel="stylesheet" href="mario.css">  
+    <style>  
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');  
+    </style>  
+</head>  
+<body>  
+    <header>  
+        <h1>Mario Adventure Club</h1>  
+    </header>  
+    <nav>  
+        <a href="mario.html">Home</a>  
+        <a href="mario-friends.html">Friends</a>  
+        <a href="mario-gallery.html">Gallery</a>  
+        <a href="mario-connect.html">Contact</a>  
+    </nav>  
+    <section>  
+        <form action="mario.html" method="post" onsubmit="return validate();">  
+            <p id="error-message" style="display: none;">Invalid E-mail address</p>  
+            <input type="text" placeholder="Your Name" required>  
+            <input type="email" placeholder="Your Email" required id="e-mail">  
+            <textarea placeholder="Your Message" rows="5"></textarea>  
+            <button type="submit">Submit</button>  
+        </form>  
+    </section>  
+    <script src="mario.js"></script>
+</body>  
+</html>
